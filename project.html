@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slsalah</title>
+    <!-- google font Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font cabin -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <!-- bootstrap rtl -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- main style  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="project-page">
+    <!-- start header  -->
+    <header class="header">
+      <div class="container">
+        <div
+          class="topbar d-flex flex-wrap justify-content-sm-between align-items-center"
+        >
+          <div class="location d-flex">
+            <div>
+              <a href="mailto:info@gmail.com">
+                info@gmail.com
+                <i class="me-1 fa-regular fa-envelope"></i>
+              </a>
+            </div>
+            <div>
+              <a class="ms-2" href="tel:+966 023 11 4564">
+                <bdo dir="ltr"> +966 023 11 4564</bdo>
+                <i class="me-1 fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+          <div class="follow">
+            <a class="ms-3" href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="ms-3" href="#">
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
+            <a class="ms-3" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="ms-3" href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- navbar  -->
+        <nav
+          class="navbar navbar-expand-lg d-flex justify-content-between align-items-center"
+        >
+          <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#reservConsult"
+            class="main-btn d-none d-lg-inline-block"
+            href="#"
+          >
+            اطلب استشارة
+          </button>
+
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"> </i>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >الصفحة الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">من نحن</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  الخدمات
+                </a>
+                <div class="dropdown-menu px-4 pt-5 w-100">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-3">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <i class="me-3 fa-solid fa-chart-column"></i>
+                          <a href="servPage1.html"
+                            >الاستشارات والحلول الادارية والمالية</a
+                          >
+                        </li>
+                        <li class="mb-3 pb-3">
+                          <i class="me-3 fa-solid fa-chart-bar"></i>
+                          <a href="servPage2.html"
+                            >الاستشارات والحلول القانونية</a
+                          >
+                        </li>
+                        <li class="mb-3 mb-lg-0">
+                          <a href="servPage3.html">
+                            <i class="me-3 fa-solid fa-lock"></i>
+                            استشارات الموارد البشرية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <a href="servPage4.html">
+                            <i class="me-3 fa-solid fa-clipboard-list"></i>
+                            الاستشارات والحلول التقنية
+                          </a>
+                        </li>
+                        <li class="mb-3 pb-3">
+                          <a href="servPage5.html">
+                            <i class="me-3 fa-solid fa-chart-pie"></i>
+                            الاستشارات والحلول التسويقية
+                          </a>
+                        </li>
+                        <li class="mb-3 mb-lg-0">
+                          <a href="servPage6.html">
+                            <i class="me-3 fa-solid fa-globe"></i>
+                            الخدمات التسويقية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <a href="servPage7.html">
+                            <i class="me-3 fa-solid fa-clipboard-list"></i>
+                            خدمات التسويق والحملات الاعلانية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">معرض الأعمال</a>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">المدونة</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact-us.html" class="nav-link">اتصل بنا</a>
+              </li>
+            </ul>
+          </div>
+          <div class="logo">
+            <img src="images/logo-dark.png" alt="logo" />
+          </div>
+        </nav>
+        <!-- end navbar  -->
+      </div>
+    </header>
+    <!-- end header  -->
+
+    <!-- start main content  -->
+    <main>
+      <section class="project mx-auto">
+        <div class="container">
+          <div class="title text-center mx-auto">
+            <h2 class="section-title fw-bold mb-4">
+              الموقع الالكتروني لشركة الغامدي
+            </h2>
+            <div class="row justify-content-between">
+              <div class="col-md-4 proj-item mb-3 mb-md-0">
+                <div class="d-flex flex-column">
+                  <h6>حول المشروع</h6>
+                  <span class="fw-medium"> 2 أسبوع / برمجة موقع </span>
+                  <time datetime="2023-11-21" class="fw-medium">
+                    2023/11/21
+                  </time>
+                </div>
+              </div>
+              <div class="col-md-4 proj-item mb-3 mb-md-0">
+                <div class="d-flex flex-column">
+                  <h6>العمل المٌنجز</h6>
+                  <span class="fw-medium"
+                    >التصميم المبدئي / Seo <br />برمجة الموقع النهائي
+                  </span>
+                </div>
+              </div>
+              <div class="col-md-4 proj-item mb-3 mb-md-0">
+                <div class="d-flex flex-column">
+                  <h6>دورنا</h6>
+                  <span class="fw-medium">
+                    التصميم / محركات البحث <br />
+                    البرمجة
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content d-flex flex-column mt-5">
+            <div class="img">
+              <img
+                class="img-fluid w-100"
+                src="images/project/Photo.png"
+                alt="project Photo"
+              />
+            </div>
+            <div class="proj-paragraph my-4">
+              <p class="fw-medium">
+                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+                هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                التطبيق.إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي
+                أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه
+                الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة
+                حقيقية لتصميم الموقع.ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة
+                على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن
+                يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى
+                يتحدث عنه التصميم فيظهر بشكل لا يليق.هذا النص يمكن أن يتم تركيبه
+                على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير
+                منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
+              </p>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <img
+                  class="img-fluid w-100"
+                  src="images/project/pexels-pixabay-53621 1 (1).png"
+                  alt="image"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid w-100"
+                  src="images/project/pexels-pixabay-53621 1(1).png"
+                  alt="image"
+                />
+              </div>
+              <div class="col-12 my-3 my-md-4">
+                <img
+                  class="img-fluid w-100"
+                  src="images/project/pexels-pixabay-53621 1 (2).png"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid w-100"
+                  src="images/project/pexels-pixabay-53621 1 (1).png"
+                  alt="image"
+                />
+              </div>
+              <div class="col-md-6 mt-3 mt-md-0">
+                <img
+                  class="img-fluid w-100"
+                  src="images/project/pexels-pixabay-53621 1(1).png"
+                  alt="image"
+                />
+              </div>
+            </div>
+
+            <div class="proj-paragraph my-4">
+              <p class="fw-medium">
+                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+                هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                التطبيق.إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي
+                أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه
+                الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة
+                حقيقية لتصميم الموقع.ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة
+                على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن
+                يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى
+                يتحدث عنه التصميم فيظهر بشكل لا يليق.هذا النص يمكن أن يتم تركيبه
+                على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير
+                منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
+              </p>
+            </div>
+          </div>
+
+          <section class="related-projects my-5">
+            <h2 class="section-title fw-bold text-center mb-4">مشاريع أخرى</h2>
+            <div class="d-flex flex-wrap gap-4 justify-content-center">
+              <div class="card border-0 position-relative overflow-hidden">
+                <div class="img h-100">
+                  <img
+                    class="img-fluid w-100 h-100"
+                    src="images/blog/Photo-1.png"
+                    alt="news image"
+                  />
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">شركة الغامدي للمقاولات</h4>
+                  <p class="card-text">
+                    تم استلام الفكرة من العميل والمساعدة على دراسة الجدوى
+                    الاقتصادية والمساعدة بكافة الحلول التقنية والتسويقية
+                    والمتابعة الدورية.
+                    <a
+                      class="secondary-btn float-end d-inline-block mt-1"
+                      href="#"
+                      >اقرأ المزيد</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-0 position-relative overflow-hidden">
+                <div class="img h-100">
+                  <img
+                    class="img-fluid h-100 w-100"
+                    src="images/blog/Photo-5.png"
+                    alt="news image"
+                  />
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">شركة الغامدي للمقاولات</h4>
+                  <p class="card-text">
+                    تم استلام الفكرة من العميل والمساعدة على دراسة الجدوى
+                    الاقتصادية والمساعدة بكافة الحلول التقنية والتسويقية
+                    والمتابعة الدورية.
+                    <a
+                      class="secondary-btn float-end d-inline-block mt-1"
+                      href="#"
+                      >اقرأ المزيد</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <!-- end main content  -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade reserve-consult-modal"
+      id="reservConsult"
+      tabindex="-1"
+      aria-labelledby="reservConsultLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header flex-column text-center">
+            <h2 class="modal-title fw-bold" id="reservConsultLabel">
+              احجز استشارة
+            </h2>
+            <h4 class="modal-subtitle fw-medium">
+              استشارة مجانية لمدة 30 دقيقة
+            </h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">
+                  الاسم الكامل
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="nameHelp"
+                  placeholder="الاسم"
+                  required
+                  autofocus
+                />
+                <div id="nameHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="address" class="form-label">
+                  العنوان
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="address"
+                  aria-describedby="address"
+                  placeholder="البلد، المدينة"
+                  required
+                />
+                <div id="address" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="job" class="form-label">
+                  مجال العمل
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="job"
+                  aria-describedby="job"
+                  placeholder="مطاعم، بنوك، مقاهي،...."
+                  required
+                />
+                <div id="job" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">
+                  الجوال
+                  <span> *</span>
+                </label>
+                <div class="input-group mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="12345678952"
+                    required
+                  />
+                  <span class="input-group-text" id="basic-addon1">
+                    <img src="images/Saudi-Arabia-Flag.png" alt="flag" />
+                  </span>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">
+                  البريد الالكتروني
+                  <span> *</span>
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <labe for="subject" class="form-label">
+                  موضوع الاستشارة
+                  <span> *</span>
+                </labe>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="موضوع الاستشارة"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject-details" class="form-label">
+                  الشرح
+                  <span> *</span>
+                </label>
+
+                <textarea
+                  class="form-control"
+                  placeholder="نبذة عن الاستشارة المطلوبة"
+                  id="subject-details"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="main-btn">احجز الآن</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- start footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="site col-md-6 col-xl-3 mb-5 mb-xl-0">
+            <div class="site-logo mb-4">
+              <img src="images/share-logo-white.png" alt="logo" />
+            </div>
+            <p class="site-text pe-3">
+              شركة سلسلة هي أول شركة سعودية من نوعها في السوق السعودي
+            </p>
+            <div class="social-links d-flex">
+              <a class="ms-3" href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a class="ms-3" href="#">
+                <i class="fa-brands fa-square-x-twitter"></i>
+              </a>
+              <a class="ms-3" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a class="ms-3" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="about col-md-6 col-xl-2 mb-5 mb-xl-0">
+            <h3 class="about-title mb-4">عن سلسلة</h3>
+            <div class="about-links d-flex flex-column">
+              <a class="mb-3" href="#">الصفحة الرئيسية</a>
+              <a class="mb-3" href="#">من نحن</a>
+              <a class="mb-3" href="#">المدونة</a>
+              <a href="#">اتصل بنا</a>
+            </div>
+          </div>
+          <div class="foot-ser col-md-6 col-xl-5 mb-5 mb-xl-0">
+            <h3 class="mb-4">خدماتنا</h3>
+            <div class="row">
+              <div class="col d-flex flex-column">
+                <a class="mb-3" href="#"
+                  >الاستشارات والحلول الإدارية والمالية</a
+                >
+                <a class="mb-3" href="#">الاستشارات والحلول القانونية</a>
+                <a class="mb-3" href="#">استشارات الموارد البشرية</a>
+                <a href="#">الاستشارات والحلول التقنية</a>
+              </div>
+              <div class="col d-flex flex-column">
+                <a class="mb-3" href="#">الاستشارات والحلول التسويقية</a>
+                <a class="mb-3" href="#">الخدمات التسويقية</a>
+                <a class="mb-3" href="#">خدمات التصميم والحملات الإعلانية</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-2">
+            <h3 class="mb-4">تواصل معنا</h3>
+            <address class="d-flex flex-column">
+              <div class="mb-3 d-flex align-items-center">
+                <img class="me-2" src="images/address/Icon.png" alt="phone" />
+                <a href="tel:+966 645 6454 55"> +966 645 6454 55 </a>
+              </div>
+              <div class="mb-3 d-flex align-items-center">
+                <img class="me-2" src="images/address/Vector.png" alt="email" />
+                <a href="mailto:slsalah@gmail.com"> slsalah@gmail.com</a>
+              </div>
+              <div class="d-flex align-items-center">
+                <img
+                  class="me-2"
+                  src="images/address/Group.png"
+                  alt="address"
+                />
+                <a href="#"> الرياض - شارع الملك فهد 112 </a>
+              </div>
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+
+    <div class="bottom-footer text-center">
+      <p>جميع الحقوق محفوظة لشركة سلسلة 2023</p>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

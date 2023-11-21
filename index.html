@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slsalah</title>
+    <!-- google font Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font cabin -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <!-- bootstrap rtl -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- main style  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start header  -->
+    <header class="header">
+      <div class="container">
+        <div
+          class="topbar d-flex flex-wrap justify-content-sm-between align-items-center"
+        >
+          <div class="location d-flex">
+            <div>
+              <a href="mailto:info@gmail.com">
+                info@gmail.com
+                <i class="me-1 fa-regular fa-envelope"></i>
+              </a>
+            </div>
+            <div>
+              <a class="ms-2" href="tel:+966 023 11 4564">
+                <bdo dir="ltr"> +966 023 11 4564</bdo>
+                <i class="me-1 fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+          <div class="follow">
+            <a class="ms-3" href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="ms-3" href="#">
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
+            <a class="ms-3" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="ms-3" href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- navbar  -->
+        <nav
+          class="navbar navbar-expand-lg d-flex justify-content-between align-items-center"
+        >
+          <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#reservConsult"
+            class="main-btn d-none d-lg-inline-block"
+            href="#"
+          >
+            اطلب استشارة
+          </button>
+
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"> </i>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >الصفحة الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">من نحن</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  الخدمات
+                </a>
+                <div class="dropdown-menu px-4 pt-5 w-100">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-3">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <i class="me-3 fa-solid fa-chart-column"></i>
+                          <a href="servPage1.html"
+                            >الاستشارات والحلول الادارية والمالية</a
+                          >
+                        </li>
+                        <li class="mb-3 pb-3">
+                          <i class="me-3 fa-solid fa-chart-bar"></i>
+                          <a href="servPage2.html"
+                            >الاستشارات والحلول القانونية</a
+                          >
+                        </li>
+                        <li class="mb-3 mb-lg-0">
+                          <a href="servPage3.html">
+                            <i class="me-3 fa-solid fa-lock"></i>
+                            استشارات الموارد البشرية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <a href="servPage4.html">
+                            <i class="me-3 fa-solid fa-clipboard-list"></i>
+                            الاستشارات والحلول التقنية
+                          </a>
+                        </li>
+                        <li class="mb-3 pb-3">
+                          <a href="servPage5.html">
+                            <i class="me-3 fa-solid fa-chart-pie"></i>
+                            الاستشارات والحلول التسويقية
+                          </a>
+                        </li>
+                        <li class="mb-3 mb-lg-0">
+                          <a href="servPage6.html">
+                            <i class="me-3 fa-solid fa-globe"></i>
+                            الخدمات التسويقية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <a href="servPage7.html">
+                            <i class="me-3 fa-solid fa-clipboard-list"></i>
+                            خدمات التسويق والحملات الاعلانية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">معرض الأعمال</a>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">المدونة</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact-us.html" class="nav-link">اتصل بنا</a>
+              </li>
+            </ul>
+          </div>
+          <div class="logo">
+            <img src="images/share-logo-white.png" alt="logo" />
+          </div>
+        </nav>
+        <!-- end navbar  -->
+      </div>
+    </header>
+    <!-- end header  -->
+
+    <!-- start hero section  -->
+    <div id="heroSection" class="hero carousel slide" data-bs-ride="carousel">
+      <div class="overlay"></div>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#heroSection"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroSection"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroSection"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner h-100">
+        <div
+          class="carousel-item active h-100"
+          style="background-image: url('images/home-page/home-page-1.png')"
+        >
+          <div
+            class="container h-100 d-flex justify-content-center align-items-center"
+          >
+            <div class="caption z-2 text-center text-white">
+              <h1 class="title">من المملكة موطن الرّيادة ورمز الطموح</h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="carousel-item h-100"
+          style="background-image: url('images/home-page/home-page-2.png')"
+        >
+          <div
+            class="container h-100 d-flex justify-content-center align-items-center"
+          >
+            <div class="caption z-2 text-center text-white">
+              <h1 class="title">
+                إلى رائدي الأعمال<br />أصحاب الرّؤى وفكر التطوير
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="carousel-item h-100"
+          style="background-image: url('images/home-page/home-page-3.png')"
+        >
+          <div
+            class="container h-100 d-flex justify-content-center align-items-center"
+          >
+            <div class="caption z-2 text-center text-white">
+              <h1 class="title">
+                سلسلة معكم لتحقيق الرؤيا وتحويلهاإلى واقع<br />
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end hero section  -->
+
+    <!-- start main content  -->
+    <main>
+      <!-- start video  section  -->
+      <section class="video" id="video">
+        <div class="container mx-auto text-center">
+          <h2 class="title display-5 fw-bold">
+            تعرف على <span>سلسلة</span> بفيديو
+          </h2>
+          <p class="text fw-medium mx-auto fs-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            vestibulum lectus vitae justo tristique, nec malesuada elit
+          </p>
+
+          <div class="video-frame position-relative">
+            <div
+              class="back back-top-right position-absolute z-n1 top-0 start-0"
+            ></div>
+            <div
+              class="back back-bottom-left position-absolute z-n1 bottom-0 end-0"
+            ></div>
+            <div class="img position-relative">
+              <img class="w-100" src="images/video/Photo.png" alt="video" />
+            </div>
+            <div
+              class="video-icons position-absolute top-50 start-50 translate-middle"
+            >
+              <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="images/video/icon-3.png"
+                alt="icon"
+              />
+              <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="images/video/icon-2.png"
+                alt="icon"
+              />
+              <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="images/video/icon-1.png"
+                alt="icon"
+              />
+              <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="images/video/Icon.svg"
+                alt="play icon"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end video  section  -->
+
+      <!-- start platform section  -->
+      <section class="platform">
+        <div class="container">
+          <h2 class="title text-center display-5 fw-bold">حقيبة ريادي</h2>
+          <div class="platform-content">
+            <div class="row justify-content-center">
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">فكرة المشروع</h3>
+                <div class="text-hover">
+                  <p>
+                    تقديم جلسة عصف ذهني لمناقشة فكرة المشروع والوصول الى أفضل
+                    فكرة تلامس حاجة السوق
+                  </p>
+                </div>
+                <span></span>
+              </div>
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">تصميم نموذج العمل التجاري</h3>
+                <div class="text-hover">
+                  <p> تصميم نموذج العمل التجاري لإظهار ملامح المشروع.</p>
+                </div>
+                <span></span>
+              </div>
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">دراسة جدوى</h3>
+                <div class="text-hover">
+                  <p>
+                    إعداد ملف دراسة جدوى معتمدة (المالية – القانونية – الفنية –
+                    السوقية) للمشروع.
+                  </p>
+                </div>
+                <span></span>
+              </div>
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">دراسة وتحليل</h3>
+                <div class="text-hover">
+                  <p>
+                    دراسة وتحليل السوق تحليل المنافسين تحليل الجمهور المستهدف.
+                  </p>
+                </div>
+                <span></span>
+              </div>
+
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">
+                  تصميم الهوية البصرية للمشروع
+                </h3>
+                <div class="text-hover">
+                  <p>
+                    تصميم الهوية البصرية وفلسفة الشعار واختيار اسم تجاري إبداعي
+                    وفريد أو فكرة العلامة التجارية بما يتوافق مع النشاط والصناعة
+                  </p>
+                </div>
+                <span></span>
+              </div>
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">ملخص وعرض استثمار</h3>
+                <div class="text-hover">
+                  <p>تقديم ملخص وعرض استثمار لجذب التمويل والمستثمرين.</p>
+                </div>
+                <span></span>
+              </div>
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">
+                  الاستشارات والحلول القانونية
+                </h3>
+                <div class="text-hover">
+                  <p>تقديم الاستشارات والحلول القانونية.</p>
+                </div>
+                <span></span>
+              </div>
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">بناء هيكلية الموارد البشرية</h3>
+                <div class="text-hover">
+                  <p>بناء هيكلية الموارد البشرية والتوصيف الوظيفي.</p>
+                </div>
+                <span></span>
+              </div>
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">الاستشارات والحلول التقنية</h3>
+                <div class="text-hover">
+                  <p>تقديم الاستشارات والحلول التقنية.</p>
+                </div>
+                <span></span>
+              </div>
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">بناء استراتيجية التسويق</h3>
+                <div class="text-hover">
+                  <p>
+                    بناء استراتيجية التسويق حسب نوع النشاط وميزانية الانطلاقة.
+                  </p>
+                </div>
+                <span></span>
+              </div>
+              <div
+                class="box d-flex align-items-center justify-content-center justify-content-md-start col-md-6 col-lg-4 col-xl-3"
+              >
+                <h3 class="text-center fw-bold">
+                  تحديد الأهداف ووضع خطة عمل متكاملة
+                </h3>
+                <div class="text-hover">
+                  <p>
+                     تحديد الأهداف ووضع خطة عمل متكاملة تتضمن الخطة التشغيلية
+                    والخطة التسويقية.
+                  </p>
+                </div>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end platform section  -->
+
+      <!-- start services section  -->
+      <section class="services">
+        <div class="container text-center">
+          <h2 class="title display-5 fw-bold">الخدمات</h2>
+          <p class="sub-title fw-medium mb-4">
+            بفضل خبرتنا الواسعة والمتنوعة، نقدم مجموعة متنوعة من الخدمات التي
+            تلبي احتياجاتك بكفاءة واحترافية.
+          </p>
+          <div class="row gy-5">
+            <div class="col-md-6 col-lg-4">
+              <div class="ser position-relative">
+                <img src="images/services/ser-01.png" alt="service-1" />
+                <h3 class="ser-title fs-4 pb-4">
+                  <a href="#" class="stretched-link">
+                    الاستشارات والحلول الإدارية والمالية
+                  </a>
+                </h3>
+                <p class="ser-text fw-medium px-2 px-xl-3 px-xxl-5">
+                  بفضل خبرتنا الواسعة والمتنوعة، نقدم مجموعة متنوعة من الخدمات
+                  التي تلبي احتياجاتك بكفاءة واحترافية.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="ser">
+                <img src="images/services/ser-02.png" alt="service-1" />
+                <h3 class="ser-title fs-4 pb-4">
+                  <a href="#" class="stretched-link">
+                    الاستشارات والحلول القانونية
+                  </a>
+                </h3>
+                <p class="ser-text fw-medium px-2 px-xl-3 px-xxl-5">
+                  بفضل خبرتنا الواسعة والمتنوعة، نقدم مجموعة متنوعة من الخدمات
+                  التي تلبي احتياجاتك بكفاءة واحترافية.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="ser position-relative">
+                <img src="images/services/ser-03.png" alt="service-1" />
+                <h3 class="ser-title fs-4 pb-4">
+                  <a href="#" class="stretched-link">
+                    استشارات الموارد البشرية
+                  </a>
+                </h3>
+                <p class="ser-text fw-medium px-2 px-xl-3 px-xxl-5">
+                  بفضل خبرتنا الواسعة والمتنوعة، نقدم مجموعة متنوعة من الخدمات
+                  التي تلبي احتياجاتك بكفاءة واحترافية.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="ser position-relative">
+                <img src="images/services/ser-04.png" alt="service-1" />
+                <h3 class="ser-title fs-4 pb-4">
+                  <a href="#" class="stretched-link">
+                    الاستشارات والحلول التقنية
+                  </a>
+                </h3>
+                <p class="ser-text fw-medium px-2 px-xl-3 px-xxl-5">
+                  بفضل خبرتنا الواسعة والمتنوعة، نقدم مجموعة متنوعة من الخدمات
+                  التي تلبي احتياجاتك بكفاءة واحترافية.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="ser position-relative">
+                <img src="images/services/ser-05.png" alt="service-1" />
+                <h3 class="ser-title fs-4 pb-4">
+                  <a href="#" class="stretched-link">
+                    الاستشارات والحلول التسويقية
+                  </a>
+                </h3>
+                <p class="ser-text fw-medium px-2 px-xl-3 px-xxl-5">
+                  بفضل خبرتنا الواسعة والمتنوعة، نقدم مجموعة متنوعة من الخدمات
+                  التي تلبي احتياجاتك بكفاءة واحترافية.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="ser position-relative">
+                <img src="images/services/ser-06.png" alt="service-1" />
+                <h3 class="ser-title fs-4 pb-4">
+                  <a href="#" class="stretched-link"> الخدمات التسويقية </a>
+                </h3>
+                <p class="ser-text fw-medium px-2 px-xl-3 px-xxl-5">
+                  بفضل خبرتنا الواسعة والمتنوعة، نقدم مجموعة متنوعة من الخدمات
+                  التي تلبي احتياجاتك بكفاءة واحترافية.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="ser position-relative">
+                <img src="images/services/ser-07.png" alt="service-1" />
+                <h3 class="ser-title fs-4 pb-4">
+                  <a href="#" class="stretched-link">
+                    خدمات التصميم والحملات الإعلانية
+                  </a>
+                </h3>
+                <p class="ser-text fw-medium px-2 px-xl-3 px-xxl-5">
+                  بفضل خبرتنا الواسعة والمتنوعة، نقدم مجموعة متنوعة من الخدمات
+                  التي تلبي احتياجاتك بكفاءة واحترافية.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end services section  -->
+
+      <section class="stats">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-xl-3">
+              <div class="box d-flex align-items-center justify-content-center">
+                <div class="icon me-3">
+                  <img src="images/stats/stats-1.svg" alt="icon" />
+                </div>
+                <div class="stats-num">
+                  <h3 class="fw-bold">746 +</h3>
+                  <h6>Descriptoin</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="box d-flex align-items-center justify-content-center">
+                <div class="icon me-3">
+                  <img src="images/stats/stats-2.svg" alt="icon" />
+                </div>
+                <div class="stats-num">
+                  <h3 class="fw-bold">98%</h3>
+                  <h6>Descriptoin</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="box d-flex align-items-center justify-content-center">
+                <div class="icon me-3">
+                  <img src="images/stats/stats-3.svg" alt="icon" />
+                </div>
+                <div class="stats-num">
+                  <h3 class="fw-bold">181 +</h3>
+                  <h6>Descriptoin</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+              <div class="box d-flex align-items-center justify-content-center">
+                <div class="icon me-3">
+                  <img src="images/stats/stats-4.svg" alt="icon" />
+                </div>
+                <div class="stats-num">
+                  <h3 class="fw-bold">972 +</h3>
+                  <h6>Descriptoin</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end main content  -->
+
+      <!-- start team  section  -->
+      <section class="team">
+        <div class="container">
+          <h2 class="section-title fw-bold text-center display-3 mb-5">
+            تعرف على خبراء <span>سلسلة</span>
+          </h2>
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card team-card border-0">
+                  <img
+                    class="card-img-top"
+                    src="images/team/team-2.png"
+                    alt="team picture"
+                  />
+                  <div class="card-body text-center text-md-start">
+                    <h4 class="card-title fw-bold fs-3">أ مصطفى حسن</h4>
+                    <span class="fw-bold sub-title"
+                      >Senior Front-end Developer</span
+                    >
+                    <p class="card-text mt-2 fw-medium">
+                      Worem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nunc vulputate libero et velit interdum, ac aliquet odio
+                      mattis.
+                    </p>
+                    <button
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#reservConsult"
+                      class="main-btn d-inline-block"
+                      href="#"
+                    >
+                      اطلب استشارة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card team-card border-0">
+                  <img
+                    class="card-img-top"
+                    src="images/team/team-3.png"
+                    alt="team picture"
+                  />
+                  <div class="card-body text-center text-md-start">
+                    <h4 class="card-title fw-bold fs-3">أ مصطفى حسن</h4>
+                    <span class="fw-bold sub-title"
+                      >Senior Front-end Developer</span
+                    >
+                    <p class="card-text mt-2 fw-medium">
+                      Worem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nunc vulputate libero et velit interdum, ac aliquet odio
+                      mattis.
+                    </p>
+                    <button
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#reservConsult"
+                      class="main-btn d-inline-block"
+                      href="#"
+                    >
+                      اطلب استشارة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card team-card border-0">
+                  <img
+                    class="card-img-top"
+                    src="images/team/team-1.png"
+                    alt="team picture"
+                  />
+                  <div class="card-body text-center text-md-start">
+                    <h4 class="card-title fw-bold fs-3">أ مصطفى حسن</h4>
+                    <span class="fw-bold sub-title"
+                      >Senior Front-end Developer</span
+                    >
+                    <p class="card-text mt-2 fw-medium">
+                      Worem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nunc vulputate libero et velit interdum, ac aliquet odio
+                      mattis.
+                    </p>
+                    <button
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#reservConsult"
+                      class="main-btn d-inline-block"
+                      href="#"
+                    >
+                      اطلب استشارة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card team-card border-0">
+                  <img
+                    class="card-img-top"
+                    src="images/team/team-3.png"
+                    alt="team picture"
+                  />
+                  <div class="card-body text-center text-md-start">
+                    <h4 class="card-title fw-bold fs-3">أ مصطفى حسن</h4>
+                    <span class="fw-bold sub-title"
+                      >Senior Front-end Developer</span
+                    >
+                    <p class="card-text mt-2 fw-medium">
+                      Worem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nunc vulputate libero et velit interdum, ac aliquet odio
+                      mattis.
+                    </p>
+                    <button
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#reservConsult"
+                      class="main-btn d-inline-block"
+                      href="#"
+                    >
+                      اطلب استشارة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card team-card border-0">
+                  <img
+                    class="card-img-top"
+                    src="images/team/team-2.png"
+                    alt="team picture"
+                  />
+                  <div class="card-body text-center text-md-start">
+                    <h4 class="card-title fw-bold fs-3">أ مصطفى حسن</h4>
+                    <span class="fw-bold sub-title"
+                      >Senior Front-end Developer</span
+                    >
+                    <p class="card-text mt-2 fw-medium">
+                      Worem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nunc vulputate libero et velit interdum, ac aliquet odio
+                      mattis.
+                    </p>
+                    <button
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#reservConsult"
+                      class="main-btn d-inline-block"
+                      href="#"
+                    >
+                      اطلب استشارة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card team-card border-0">
+                  <img
+                    class="card-img-top"
+                    src="images/team/team-1.png"
+                    alt="team picture"
+                  />
+                  <div class="card-body text-center text-md-start">
+                    <h4 class="card-title fw-bold fs-3">أ مصطفى حسن</h4>
+                    <span class="fw-bold sub-title"
+                      >Senior Front-end Developer</span
+                    >
+                    <p class="card-text mt-2 fw-medium">
+                      Worem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nunc vulputate libero et velit interdum, ac aliquet odio
+                      mattis.
+                    </p>
+                    <button
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#reservConsult"
+                      class="main-btn d-inline-block"
+                      href="#"
+                    >
+                      اطلب استشارة
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- end team section  -->
+
+      <!-- start plan section  -->
+      <section class="plan">
+        <div class="container">
+          <div
+            class="section-title fw-bold text-center text-white display-5 mb-5"
+          >
+            منصة سلسلة لتخطيط الأعمال
+          </div>
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 mb-5 mb-lg-0 text-center text-lg-start">
+              <img src="images/plan.png" alt="plan image" />
+            </div>
+            <div class="col-lg-6 text-center text-lg-start">
+              <p class="plan-text fw-medium fs-2 text-white">
+                كل ما تحتاجه لإنجاز وتخطيط أعمالك في منصة واحدة فقط، سارع وسجل
+                في المنصة الآن لتحصل على كافة المميزات المتاحة داخل المنصة
+              </p>
+              <a class="btn btn-light fs-4" href="#">سجل الآن</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end plan section  -->
+
+      <!-- start portfolio section  -->
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="section-title fw-bold text-center display-3 mb-5">
+            تعرف على معرض أعمال <span>سلسلة</span>
+          </h2>
+          <div class="row port-container g-3">
+            <div class="col-lg-8">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="port-item position-relative overflow-hidden">
+                    <img
+                      src="images/portfolio/office-building-P6EY7D6.png"
+                      alt="office-building-P6EY7D6"
+                    />
+                    <div
+                      class="port-content position-absolute d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <h5 class="fs-4">شركة الغامدي للمقاولات</h5>
+                      <p class="fw-medium">
+                        تم استلام الفكرة من العميل والمساعدة على دراسة الجدوى
+                        الاقتصادية والمساعدة بكافة الحلول التقنية والتسويقية
+                        والمتابعة الدورية.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="port-item position-relative overflow-hidden">
+                    <img
+                      src="images/portfolio/round-building-CGY4TZ5.png"
+                      alt="round-building-CGY4TZ5"
+                    />
+                    <div
+                      class="port-content position-absolute d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <h5 class="fs-4">شركة الغامدي للمقاولات</h5>
+                      <p class="fw-medium">
+                        تم استلام الفكرة من العميل والمساعدة على دراسة الجدوى
+                        الاقتصادية والمساعدة بكافة الحلول التقنية والتسويقية
+                        والمتابعة الدورية.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="port-item col-md-6 col-lg-4 position-relative overflow-hidden"
+                  >
+                    <img
+                      src="images/portfolio/scott-webb-kAJE-3_4zHE-unsplash.png"
+                      alt="office-building-P6EY7D6"
+                    />
+                    <div
+                      class="port-content position-absolute d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <h5 class="fs-4">شركة الغامدي للمقاولات</h5>
+                      <p class="fw-medium">
+                        تم استلام الفكرة من العميل والمساعدة على دراسة الجدوى
+                        الاقتصادية والمساعدة بكافة الحلول التقنية والتسويقية
+                        والمتابعة الدورية.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="port-item position-relative overflow-hidden">
+                    <img
+                      src="images/portfolio/xrdes-PHgbWpst8UA-unsplash.png"
+                      alt="office-building-P6EY7D6"
+                    />
+                    <div
+                      class="port-content position-absolute d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <h5 class="fs-4">شركة الغامدي للمقاولات</h5>
+                      <p class="fw-medium">
+                        تم استلام الفكرة من العميل والمساعدة على دراسة الجدوى
+                        الاقتصادية والمساعدة بكافة الحلول التقنية والتسويقية
+                        والمتابعة الدورية.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="port-item position-relative overflow-hidden">
+                <img
+                  src="images/portfolio/office-buildings-modern-glass-silhouettes-on-moder-PRADEQE.png"
+                  alt="office-building-P6EY7D6"
+                />
+                <div
+                  class="port-content position-absolute d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h5 class="fs-4">شركة الغامدي للمقاولات</h5>
+                  <p class="fw-medium">
+                    تم استلام الفكرة من العميل والمساعدة على دراسة الجدوى
+                    الاقتصادية والمساعدة بكافة الحلول التقنية والتسويقية
+                    والمتابعة الدورية.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-5">
+            <a href="#" class="main-btn d-inline-block">المزيد</a>
+          </div>
+        </div>
+      </section>
+      <!-- end portfolio section  -->
+
+      <!-- start partners section  -->
+      <section class="partners">
+        <div class="container-fluid">
+          <h2 class="section-title fw-bold text-center display-3 mb-5">
+            بكل فخر عملاء <span>سلسلة</span>
+          </h2>
+          <!-- Swiper -->
+          <div class="swiper swiperPartner">
+            <div class="swiper-wrapper mx-5">
+              <div class="swiper-slide">
+                <div class="partner-card mx-auto">
+                  <img
+                    class="img-fluid"
+                    src="images/partners/partner-06.png"
+                    alt="partner-01"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-card mx-auto">
+                  <img
+                    class="img-fluid"
+                    src="images/partners/partner-01.png"
+                    alt="partner-01"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-card mx-auto">
+                  <img
+                    class="img-fluid"
+                    src="images/partners/partner-02.png"
+                    alt="partner-01"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-card mx-auto">
+                  <img
+                    class="img-fluid"
+                    src="images/partners/partner-03.png"
+                    alt="partner-01"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-card mx-auto">
+                  <img
+                    class="img-fluid"
+                    src="images/partners/partner-04.png"
+                    alt="partner-01"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-card mx-auto">
+                  <img
+                    class="img-fluid"
+                    src="images/partners/partner-05.png"
+                    alt="partner-01"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-card mx-auto">
+                  <img
+                    class="img-fluid"
+                    src="images/partners/partner-06.png"
+                    alt="partner-01"
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-card mx-auto">
+                  <img
+                    class="img-fluid"
+                    src="images/partners/partner-07.png"
+                    alt="partner-01"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end partners section  -->
+
+      <!-- start testimonials section  -->
+      <section class="testimonials">
+        <div class="container-fluid">
+          <h2 class="section-title fw-bold text-center display-3 mb-5">
+            آراء عملائنا
+          </h2>
+          <div class="swiper testimonials-swipper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="test-card text-center text-white">
+                  <p class="test-text fw-medium mb-5">
+                    This proved to be impossible using the traditional concepts
+                    of space and time. Einstein developed a new view of time
+                    first and then space. This proved to be impossible using the
+                    traditional concepts of space and time. Einstein developed a
+                    new view of time first and then space.
+                  </p>
+                  <div class="user-info mx-auto px-4 py-2">
+                    <div class="img mx-auto mb-1">
+                      <img
+                        class="img-fluid"
+                        src="images/cover.png"
+                        alt="person image"
+                      />
+                    </div>
+                    <h3 class="user-name">خالد</h3>
+                    <h6 class="user-job">محاسب لدى شركة Unknow</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="test-card text-center text-white">
+                  <p class="test-text fw-medium mb-5">
+                    This proved to be impossible using the traditional concepts
+                    of space and time. Einstein developed a new view of time
+                    first and then space. This proved to be impossible using the
+                    traditional concepts of space and time. Einstein developed a
+                    new view of time first and then space.
+                  </p>
+                  <div class="user-info mx-auto px-4 py-2">
+                    <div class="img mx-auto mb-1">
+                      <img
+                        class="img-fluid"
+                        src="images/cover.png"
+                        alt="person image"
+                      />
+                    </div>
+                    <h3 class="user-name">خالد</h3>
+                    <h6 class="user-job">محاسب لدى شركة Unknow</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="test-card text-center text-white">
+                  <p class="test-text fw-medium mb-5">
+                    This proved to be impossible using the traditional concepts
+                    of space and time. Einstein developed a new view of time
+                    first and then space. This proved to be impossible using the
+                    traditional concepts of space and time. Einstein developed a
+                    new view of time first and then space.
+                  </p>
+                  <div class="user-info mx-auto px-4 py-2">
+                    <div class="img mx-auto mb-1">
+                      <img
+                        class="img-fluid"
+                        src="images/cover.png"
+                        alt="person image"
+                      />
+                    </div>
+                    <h3 class="user-name">خالد</h3>
+                    <h6 class="user-job">محاسب لدى شركة Unknow</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="test-card text-center text-white">
+                  <p class="test-text fw-medium mb-5">
+                    This proved to be impossible using the traditional concepts
+                    of space and time. Einstein developed a new view of time
+                    first and then space. This proved to be impossible using the
+                    traditional concepts of space and time. Einstein developed a
+                    new view of time first and then space.
+                  </p>
+                  <div class="user-info mx-auto px-4 py-2">
+                    <div class="img mx-auto mb-1">
+                      <img
+                        class="img-fluid"
+                        src="images/cover.png"
+                        alt="person image"
+                      />
+                    </div>
+                    <h3 class="user-name">خالد</h3>
+                    <h6 class="user-job">محاسب لدى شركة Unknow</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end testimonials section  -->
+
+      <!-- add articles section  -->
+      <section class="latest-article">
+        <div class="container">
+          <h2 class="section-title fw-bold text-center display-3 mb-5">
+            آخر المقالات
+          </h2>
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 subscribe mb-4 mb-lg-0">
+              <h3 class="subscribe-title fw-bold">
+                انـضـم لـنـشـرتـنـا الـبـريـديـة
+              </h3>
+              <p class="subscribe-text">مقالات غنية بالمعلومات المفيدة</p>
+              <div class="subscribe-form">
+                <form
+                  action="#"
+                  class="d-flex flex-wrap justify-content-center justify-content-lg-start align-items-center"
+                >
+                  <input
+                    class="text-start fw-medium me-2 mb-lg-2 mb-xl-0"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="البريد الالكتروني"
+                  />
+                  <button class="main-btn d-inline-block" type="submit">
+                    سجل الآن
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card border-0 mx-auto mx-lg-0">
+                <div class="img position-relative">
+                  <img
+                    class="img-fluid"
+                    src="images/Photo.png"
+                    alt="news image"
+                  />
+                  <div class="buttons position-absolute">
+                    <a href="#" class="secondary-btn d-inline-block me-2"
+                      >تحليل</a
+                    >
+                    <a href="#" class="secondary-btn d-inline-block">تسويق</a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title fw-bold">دراسة الجدوى الاقتصادية</h4>
+                  <p class="card-text">
+                    هذا النص هو نص تجريبي لتعويض نص حقيقي سيزود لاحقاً، هذا النص
+                    هو نص تجريبي لتعويض نص حقيقي سيزود لاحقاً، هذا النص هو نص
+                    تجريبي لتعويض نص حقيقي سيزود لاحقاً.
+                  </p>
+                  <a
+                    class="card-link link-light link-underline link-offset-1"
+                    href="#"
+                    >اقرأ المزيد</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end articles section  -->
+    </main>
+    <!-- end main content  -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade reserve-consult-modal"
+      id="reservConsult"
+      tabindex="-1"
+      aria-labelledby="reservConsultLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header flex-column text-center">
+            <h2 class="modal-title fw-bold" id="reservConsultLabel">
+              احجز استشارة
+            </h2>
+            <h4 class="modal-subtitle fw-medium">
+              استشارة مجانية لمدة 30 دقيقة
+            </h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">
+                  الاسم الكامل
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="nameHelp"
+                  placeholder="الاسم"
+                  required
+                  autofocus
+                />
+                <div id="nameHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="address" class="form-label">
+                  العنوان
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="address"
+                  aria-describedby="address"
+                  placeholder="البلد، المدينة"
+                  required
+                />
+                <div id="address" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="job" class="form-label">
+                  مجال العمل
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="job"
+                  aria-describedby="job"
+                  placeholder="مطاعم، بنوك، مقاهي،...."
+                  required
+                />
+                <div id="job" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">
+                  الجوال
+                  <span> *</span>
+                </label>
+                <div class="input-group mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="12345678952"
+                    required
+                  />
+                  <span class="input-group-text" id="basic-addon1">
+                    <img src="images/Saudi-Arabia-Flag.png" alt="flag" />
+                  </span>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">
+                  البريد الالكتروني
+                  <span> *</span>
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <labe for="subject" class="form-label">
+                  موضوع الاستشارة
+                  <span> *</span>
+                </labe>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="موضوع الاستشارة"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject-details" class="form-label">
+                  الشرح
+                  <span> *</span>
+                </label>
+
+                <textarea
+                  class="form-control"
+                  placeholder="نبذة عن الاستشارة المطلوبة"
+                  id="subject-details"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="main-btn">احجز الآن</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- start footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="site col-md-6 col-xl-3 mb-5 mb-xl-0">
+            <div class="site-logo mb-4">
+              <img src="images/share-logo-white.png" alt="logo" />
+            </div>
+            <p class="site-text pe-3">
+              شركة سلسلة هي أول شركة سعودية من نوعها في السوق السعودي
+            </p>
+            <div class="social-links d-flex">
+              <a class="ms-3" href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a class="ms-3" href="#">
+                <i class="fa-brands fa-square-x-twitter"></i>
+              </a>
+              <a class="ms-3" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a class="ms-3" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="about col-md-6 col-xl-2 mb-5 mb-xl-0">
+            <h3 class="about-title mb-4">عن سلسلة</h3>
+            <div class="about-links d-flex flex-column">
+              <a class="mb-3" href="#">الصفحة الرئيسية</a>
+              <a class="mb-3" href="#">من نحن</a>
+              <a class="mb-3" href="#">المدونة</a>
+              <a href="#">اتصل بنا</a>
+            </div>
+          </div>
+          <div class="foot-ser col-md-6 col-xl-5 mb-5 mb-xl-0">
+            <h3 class="mb-4">خدماتنا</h3>
+            <div class="row">
+              <div class="col d-flex flex-column">
+                <a class="mb-3" href="#"
+                  >الاستشارات والحلول الإدارية والمالية</a
+                >
+                <a class="mb-3" href="#">الاستشارات والحلول القانونية</a>
+                <a class="mb-3" href="#">استشارات الموارد البشرية</a>
+                <a href="#">الاستشارات والحلول التقنية</a>
+              </div>
+              <div class="col d-flex flex-column">
+                <a class="mb-3" href="#">الاستشارات والحلول التسويقية</a>
+                <a class="mb-3" href="#">الخدمات التسويقية</a>
+                <a class="mb-3" href="#">خدمات التصميم والحملات الإعلانية</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-2">
+            <h3 class="mb-4">تواصل معنا</h3>
+            <address class="d-flex flex-column">
+              <div class="mb-3 d-flex align-items-center">
+                <img class="me-2" src="images/address/Icon.png" alt="phone" />
+                <a href="tel:+966 645 6454 55"> +966 645 6454 55 </a>
+              </div>
+              <div class="mb-3 d-flex align-items-center">
+                <img class="me-2" src="images/address/Vector.png" alt="email" />
+                <a href="mailto:slsalah@gmail.com"> slsalah@gmail.com</a>
+              </div>
+              <div class="d-flex align-items-center">
+                <img
+                  class="me-2"
+                  src="images/address/Group.png"
+                  alt="address"
+                />
+                <a href="#"> الرياض - شارع الملك فهد 112 </a>
+              </div>
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+
+    <div class="bottom-footer text-center">
+      <p>جميع الحقوق محفوظة لشركة سلسلة 2023</p>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
