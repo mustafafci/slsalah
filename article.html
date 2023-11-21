@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slsalah</title>
+    <!-- google font Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font cabin -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <!-- bootstrap rtl -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- main style  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="article-page">
+    <!-- start header  -->
+    <header class="header">
+      <div class="container">
+        <div
+          class="topbar d-flex flex-wrap justify-content-sm-between align-items-center"
+        >
+          <div class="location d-flex">
+            <div>
+              <a href="mailto:info@gmail.com">
+                info@gmail.com
+                <i class="me-1 fa-regular fa-envelope"></i>
+              </a>
+            </div>
+            <div>
+              <a class="ms-2" href="tel:+966 023 11 4564">
+                <bdo dir="ltr"> +966 023 11 4564</bdo>
+                <i class="me-1 fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+          <div class="follow">
+            <a class="ms-3" href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="ms-3" href="#">
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
+            <a class="ms-3" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="ms-3" href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- navbar  -->
+        <nav
+          class="navbar navbar-expand-lg d-flex justify-content-between align-items-center"
+        >
+          <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#reservConsult"
+            class="main-btn d-none d-lg-inline-block"
+            href="#"
+          >
+            اطلب استشارة
+          </button>
+
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"> </i>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >الصفحة الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">من نحن</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  الخدمات
+                </a>
+                <div class="dropdown-menu px-4 pt-5 w-100">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-3">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <i class="me-3 fa-solid fa-chart-column"></i>
+                          <a href="servPage1.html"
+                            >الاستشارات والحلول الادارية والمالية</a
+                          >
+                        </li>
+                        <li class="mb-3 pb-3">
+                          <i class="me-3 fa-solid fa-chart-bar"></i>
+                          <a href="servPage2.html"
+                            >الاستشارات والحلول القانونية</a
+                          >
+                        </li>
+                        <li class="mb-3 mb-lg-0">
+                          <a href="servPage3.html">
+                            <i class="me-3 fa-solid fa-lock"></i>
+                            استشارات الموارد البشرية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <a href="servPage4.html">
+                            <i class="me-3 fa-solid fa-clipboard-list"></i>
+                            الاستشارات والحلول التقنية
+                          </a>
+                        </li>
+                        <li class="mb-3 pb-3">
+                          <a href="servPage5.html">
+                            <i class="me-3 fa-solid fa-chart-pie"></i>
+                            الاستشارات والحلول التسويقية
+                          </a>
+                        </li>
+                        <li class="mb-3 mb-lg-0">
+                          <a href="servPage6.html">
+                            <i class="me-3 fa-solid fa-globe"></i>
+                            الخدمات التسويقية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <a href="servPage7.html">
+                            <i class="me-3 fa-solid fa-clipboard-list"></i>
+                            خدمات التسويق والحملات الاعلانية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">معرض الأعمال</a>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">المدونة</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact-us.html" class="nav-link">اتصل بنا</a>
+              </li>
+            </ul>
+          </div>
+          <div class="logo">
+            <img src="images/logo-dark.png" alt="logo" />
+          </div>
+        </nav>
+        <!-- end navbar  -->
+      </div>
+    </header>
+    <!-- end header  -->
+
+    <!-- start main content  -->
+    <main>
+      <article class="article mx-auto">
+        <div class="container">
+          <div class="title text-center mx-auto">
+            <h2 class="section-title fw-bold">ماذا تعرف عن دراسة الجدوى؟</h2>
+            <span class="d-block date mb-2">2023/9/13</span>
+            <div
+              class="d-flex flex-wrap justify-content-center justify-content-md-between align-items-center"
+            >
+              <h6 class="author fw-bold">الكاتب: أ.محمد</h6>
+              <h6 class="author-job fw-medium ms-2">استشاري مالي</h6>
+            </div>
+          </div>
+          <div class="article-content d-flex flex-column mt-5">
+            <div class="articel-img mb-5 text-center">
+              <img
+                class="img-fluid"
+                src="images/article/Photo.png"
+                alt="articel-img"
+              />
+            </div>
+            <div class="article-paragraph fw-medium mx-auto">
+              <p>
+                كيفية عمل دراسة الجدوى الاقتصادية تعد من أهم الخطوات التي يجب
+                إتخاذها، وذلك عند القيام بأي مشروع.
+                <br />
+                لأنها هى التي تقدم لصاحب المشروع كافة المعلومات التي يحتاج لها،
+                لكي تجيب عن تساؤلات كثيرة من شأنها أن يعرف هل هذا المشروع سوف
+                ينجح أم لا. ونظراً لأن دراسات الجدوى مكلفة الثمن وخاصة ً لمن
+                يبدأ في مشروع جديد صغير، وحرصاً من موقع مقال على تقديم كل ما هو
+                جديد ومفيد.
+              </p>
+              <p>
+                كيفية عمل دراسة الجدوى لأي مشروع بالخطوات تعتبر دراسة الجدوى هى
+                الأساس الذى يضمن لأي مشروع إستمراره. لأنها توفر كافة المعلومات
+                عن ما يحتاج إليه من تسويق وعمليات فنية ومالية، ويتم ذلك من خلال
+                عدة نقاط هي كالتالي. أولاً الدراسة الخاصة بالسوق تتم الدراسة
+                الخاصة بالسوق من خلال عدة نقاط أساسية، وهي كالأتي.
+
+                <br />
+                أولاً الدراسة الخاصة بالسوق تتم الدراسة الخاصة بالسوق من خلال
+                عدة نقاط أساسية، وهي كالأتي
+              </p>
+
+              <ul>
+                <li>
+                  . حيث يتم هذا من خلال عمل دراسة كاملة عن العملاء المستهدفين
+                </li>
+                <li>
+                  . كذلك مدى استيعاب السوق للكميات المطلوبة سواء للخدمة أو
+                  المنتج
+                </li>
+                <li>
+                  . وما هى التوقعات المستقبلية لزيادة أو نقصان الكميات على طلب
+                  السلعة أو الخدمة، والتي يقدمها المشروع. عمل مقارنة دقيقة في
+                  الأسواق بين السلعة او الخدمة المعروضة، وبين ما يتم استهلاكه
+                  بالفعل من العملاء
+                </li>
+                <li>
+                  . بالإضافة إلى فهم كافة الأساليب التي يتبعها المنافسين بين
+                  بعضهم البعض
+                </li>
+                <li>
+                  . معرفة كل ما يتعلق بالخدمة أو المنتج من جودة وأسلوب في
+                  التوزيع
+                </li>
+                <li>
+                  . كذلك التعرف على كيفية التسويق له وما هى الأسعار التي تم
+                  وضعها من المنافسين ؟
+                </li>
+              </ul>
+
+              <a href="#">قد يهمك : كيفية حساب الربح والخسارة لمشروع صغير</a>
+
+              <div class="articel-img my-5 text-center">
+                <img
+                  class="img-fluid"
+                  src="images/article/pexels-pixabay-53621 1 (1).png"
+                  alt="articel-img"
+                />
+              </div>
+              <p>ثانياً – دراسة النواحي الفنية للمشروع</p>
+              <ul>
+                <li>وتتم باتباع خطوات معينة وهي كما يأتي.</li>
+                <li>لابد من التحديد الدقيق لأصول المشروع الثابتة.</li>
+                <li>
+                  وكذلك معرفة ما يناسبه من موقع حتى يتم إنشائه، وما سوف يلزم له
+                  من معدات أو مواد لبنائه.
+                </li>
+                <li>
+                  عمل دراسة دقيقة لكل ما سوف يحتاج إليه المشروع من مواد أوليه.
+                </li>
+                <li>وكذلك العمال والمرافق العامة التي يجب أن تتوافر به.</li>
+                <li>
+                  دراسة العملية الإنتاجية للمشروع، من حيث المراحل الخاصة
+                  بالانتاج وصولاً الى عملية تخزين البضائع وما هى الدورة الخاصة
+                  بالإنتاج.
+                </li>
+                <li>وهل هناك كم معين لا بد من إنتاجه ؟ وما هى هذه الكمية ؟</li>
+              </ul>
+              <p>
+                ثالثاً – دراسة مالية خاصة بالمشروع
+                <br />
+                هذه الدراسة المالية تتم من خلال عدد من النقاط الأساسية وهى.
+                النقطة الأولى
+
+                <br />
+                هي التي يتم فيها دراسة كل التكاليف التي سوف يحتاج إليها المشروع،
+                و نجدها تنقسم إلى ما يلي.
+                <br />
+                تكاليف التأسيس
+              </p>
+              <ul>
+                <li>
+                  وهى مجموعة التكاليف التي سوف يحتاج إليها المشروع في بداياته.
+                </li>
+                <li>
+                  وخاصة فيما يرتبط بالرسوم المدفوعة فى استخراج الأوراق الرسمية
+                  والتراخيص.
+                </li>
+                <li>وكذلك الإستشارات وهي مصروفات لن يتم إسترجاعها بعد ذلك.</li>
+              </ul>
+
+              تكاليف خاصة برأس المال
+              <br />
+              وتشمل المكان الذي سوف يقام عليها المشروع والمعدات التي سوف تقوم
+              بالإنتاج.
+              <br />
+              كما إنها هي مصروفات يمكن استرجاعها إذا تم بيعها مرة أخرى.
+              <br />
+              تكاليف تشغيلية
+
+              <p>ثانياً – دراسة النواحي الفنية للمشروع</p>
+              <ul>
+                <li>وتتم باتباع خطوات معينة وهي كما يأتي.</li>
+                <li>لابد من التحديد الدقيق لأصول المشروع الثابتة.</li>
+                <li>
+                  وكذلك معرفة ما يناسبه من موقع حتى يتم إنشائه، وما سوف يلزم له
+                  من معدات أو مواد لبنائه.
+                </li>
+                <li>
+                  عمل دراسة دقيقة لكل ما سوف يحتاج إليه المشروع من مواد أوليه.
+                </li>
+                <li>وكذلك العمال والمرافق العامة التي يجب أن تتوافر به.</li>
+                <li>
+                  دراسة العملية الإنتاجية للمشروع، من حيث المراحل الخاصة
+                  بالانتاج وصولاً الى عملية تخزين البضائع وما هى الدورة الخاصة
+                  بالإنتاج.
+                </li>
+                <li>وهل هناك كم معين لا بد من إنتاجه ؟ وما هى هذه الكمية ؟</li>
+              </ul>
+              <p>
+                ثالثاً – دراسة مالية خاصة بالمشروع
+                <br />
+                هذه الدراسة المالية تتم من خلال عدد من النقاط الأساسية وهى.
+                النقطة الأولى
+
+                <br />
+                هي التي يتم فيها دراسة كل التكاليف التي سوف يحتاج إليها المشروع،
+                و نجدها تنقسم إلى ما يلي.
+                <br />
+                تكاليف التأسيس
+              </p>
+              <ul>
+                <li>
+                  وهى مجموعة التكاليف التي سوف يحتاج إليها المشروع في بداياته.
+                </li>
+                <li>
+                  وخاصة فيما يرتبط بالرسوم المدفوعة فى استخراج الأوراق الرسمية
+                  والتراخيص.
+                </li>
+                <li>وكذلك الإستشارات وهي مصروفات لن يتم إسترجاعها بعد ذلك.</li>
+              </ul>
+
+              تكاليف خاصة برأس المال
+              <br />
+              وتشمل المكان الذي سوف يقام عليها المشروع والمعدات التي سوف تقوم
+              بالإنتاج.
+              <br />
+              كما إنها هي مصروفات يمكن استرجاعها إذا تم بيعها مرة أخرى.
+              <br />
+              تكاليف تشغيلية
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="related-articles">
+        <div class="container">
+          <h2 class="section-title fw-bold text-center">اقرأ المزيد</h2>
+          <div class="row">
+            <div class="col-lg-6 mb-4">
+              <div class="card border-0 mx-auto mx-lg-0">
+                <div class="img position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/blog/Photo-1.png"
+                    alt="news image"
+                  />
+                  <div class="buttons position-absolute">
+                    <a href="#" class="secondary-btn d-inline-block me-2"
+                      >تحليل</a
+                    >
+                    <a href="#" class="secondary-btn d-inline-block">تسويق</a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title fw-bold">دراسة الجدوى الاقتصادية</h4>
+                  <p class="card-text">
+                    هذا النص هو نص تجريبي لتعويض نص حقيقي سيزود لاحقاً، هذا النص
+                    هو نص تجريبي لتعويض نص حقيقي سيزود لاحقاً، هذا النص هو نص
+                    تجريبي لتعويض نص حقيقي سيزود لاحقاً.
+                  </p>
+                  <a
+                    class="card-link link-light link-underline link-offset-1"
+                    href="#"
+                    >اقرأ المزيد</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card border-0 mx-auto mx-lg-0">
+                <div class="img position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/blog/Photo-2.png"
+                    alt="news image"
+                  />
+                  <div class="buttons position-absolute">
+                    <a href="#" class="secondary-btn d-inline-block me-2"
+                      >تحليل</a
+                    >
+                    <a href="#" class="secondary-btn d-inline-block">تسويق</a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title fw-bold">دراسة الجدوى الاقتصادية</h4>
+                  <p class="card-text">
+                    هذا النص هو نص تجريبي لتعويض نص حقيقي سيزود لاحقاً، هذا النص
+                    هو نص تجريبي لتعويض نص حقيقي سيزود لاحقاً، هذا النص هو نص
+                    تجريبي لتعويض نص حقيقي سيزود لاحقاً.
+                  </p>
+                  <a
+                    class="card-link link-light link-underline link-offset-1"
+                    href="#"
+                    >اقرأ المزيد</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- end main content  -->
+    <!-- Modal -->
+    <div
+      class="modal fade reserve-consult-modal"
+      id="reservConsult"
+      tabindex="-1"
+      aria-labelledby="reservConsultLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header flex-column text-center">
+            <h2 class="modal-title fw-bold" id="reservConsultLabel">
+              احجز استشارة
+            </h2>
+            <h4 class="modal-subtitle fw-medium">
+              استشارة مجانية لمدة 30 دقيقة
+            </h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">
+                  الاسم الكامل
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="nameHelp"
+                  placeholder="الاسم"
+                  required
+                  autofocus
+                />
+                <div id="nameHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="address" class="form-label">
+                  العنوان
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="address"
+                  aria-describedby="address"
+                  placeholder="البلد، المدينة"
+                  required
+                />
+                <div id="address" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="job" class="form-label">
+                  مجال العمل
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="job"
+                  aria-describedby="job"
+                  placeholder="مطاعم، بنوك، مقاهي،...."
+                  required
+                />
+                <div id="job" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">
+                  الجوال
+                  <span> *</span>
+                </label>
+                <div class="input-group mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="12345678952"
+                    required
+                  />
+                  <span class="input-group-text" id="basic-addon1">
+                    <img src="images/Saudi-Arabia-Flag.png" alt="flag" />
+                  </span>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">
+                  البريد الالكتروني
+                  <span> *</span>
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <labe for="subject" class="form-label">
+                  موضوع الاستشارة
+                  <span> *</span>
+                </labe>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="موضوع الاستشارة"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject-details" class="form-label">
+                  الشرح
+                  <span> *</span>
+                </label>
+
+                <textarea
+                  class="form-control"
+                  placeholder="نبذة عن الاستشارة المطلوبة"
+                  id="subject-details"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="main-btn">احجز الآن</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- start footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="site col-md-6 col-xl-3 mb-5 mb-xl-0">
+            <div class="site-logo mb-4">
+              <img src="images/share-logo-white.png" alt="logo" />
+            </div>
+            <p class="site-text pe-3">
+              شركة سلسلة هي أول شركة سعودية من نوعها في السوق السعودي
+            </p>
+            <div class="social-links d-flex">
+              <a class="ms-3" href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a class="ms-3" href="#">
+                <i class="fa-brands fa-square-x-twitter"></i>
+              </a>
+              <a class="ms-3" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a class="ms-3" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="about col-md-6 col-xl-2 mb-5 mb-xl-0">
+            <h3 class="about-title mb-4">عن سلسلة</h3>
+            <div class="about-links d-flex flex-column">
+              <a class="mb-3" href="#">الصفحة الرئيسية</a>
+              <a class="mb-3" href="#">من نحن</a>
+              <a class="mb-3" href="#">المدونة</a>
+              <a href="#">اتصل بنا</a>
+            </div>
+          </div>
+          <div class="foot-ser col-md-6 col-xl-5 mb-5 mb-xl-0">
+            <h3 class="mb-4">خدماتنا</h3>
+            <div class="row">
+              <div class="col d-flex flex-column">
+                <a class="mb-3" href="#"
+                  >الاستشارات والحلول الإدارية والمالية</a
+                >
+                <a class="mb-3" href="#">الاستشارات والحلول القانونية</a>
+                <a class="mb-3" href="#">استشارات الموارد البشرية</a>
+                <a href="#">الاستشارات والحلول التقنية</a>
+              </div>
+              <div class="col d-flex flex-column">
+                <a class="mb-3" href="#">الاستشارات والحلول التسويقية</a>
+                <a class="mb-3" href="#">الخدمات التسويقية</a>
+                <a class="mb-3" href="#">خدمات التصميم والحملات الإعلانية</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-2">
+            <h3 class="mb-4">تواصل معنا</h3>
+            <address class="d-flex flex-column">
+              <div class="mb-3 d-flex align-items-center">
+                <img class="me-2" src="images/address/Icon.png" alt="phone" />
+                <a href="tel:+966 645 6454 55"> +966 645 6454 55 </a>
+              </div>
+              <div class="mb-3 d-flex align-items-center">
+                <img class="me-2" src="images/address/Vector.png" alt="email" />
+                <a href="mailto:slsalah@gmail.com"> slsalah@gmail.com</a>
+              </div>
+              <div class="d-flex align-items-center">
+                <img
+                  class="me-2"
+                  src="images/address/Group.png"
+                  alt="address"
+                />
+                <a href="#"> الرياض - شارع الملك فهد 112 </a>
+              </div>
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+
+    <div class="bottom-footer text-center">
+      <p>جميع الحقوق محفوظة لشركة سلسلة 2023</p>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

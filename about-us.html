@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slsalah</title>
+    <!-- google font Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font cabin -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <!-- bootstrap rtl -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- main style  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="about-us-page">
+    <!-- start header  -->
+    <header class="header">
+      <div class="container">
+        <div
+          class="topbar d-flex flex-wrap justify-content-sm-between align-items-center"
+        >
+          <div class="location d-flex">
+            <div>
+              <a href="mailto:info@gmail.com">
+                info@gmail.com
+                <i class="me-1 fa-regular fa-envelope"></i>
+              </a>
+            </div>
+            <div>
+              <a class="ms-2" href="tel:+966 023 11 4564">
+                <bdo dir="ltr"> +966 023 11 4564</bdo>
+                <i class="me-1 fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+          <div class="follow">
+            <a class="ms-3" href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="ms-3" href="#">
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
+            <a class="ms-3" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="ms-3" href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- navbar  -->
+        <nav
+          class="navbar navbar-expand-lg d-flex justify-content-between align-items-center"
+        >
+          <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#reservConsult"
+            class="main-btn d-none d-lg-inline-block"
+            href="#"
+          >
+            اطلب استشارة
+          </button>
+
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"> </i>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >الصفحة الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">من نحن</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  الخدمات
+                </a>
+                <div class="dropdown-menu px-4 pt-5 w-100">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-3">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <i class="me-3 fa-solid fa-chart-column"></i>
+                          <a href="servPage1.html"
+                            >الاستشارات والحلول الادارية والمالية</a
+                          >
+                        </li>
+                        <li class="mb-3 pb-3">
+                          <i class="me-3 fa-solid fa-chart-bar"></i>
+                          <a href="servPage2.html"
+                            >الاستشارات والحلول القانونية</a
+                          >
+                        </li>
+                        <li class="mb-3 mb-lg-0">
+                          <a href="servPage3.html">
+                            <i class="me-3 fa-solid fa-lock"></i>
+                            استشارات الموارد البشرية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <a href="servPage4.html">
+                            <i class="me-3 fa-solid fa-clipboard-list"></i>
+                            الاستشارات والحلول التقنية
+                          </a>
+                        </li>
+                        <li class="mb-3 pb-3">
+                          <a href="servPage5.html">
+                            <i class="me-3 fa-solid fa-chart-pie"></i>
+                            الاستشارات والحلول التسويقية
+                          </a>
+                        </li>
+                        <li class="mb-3 mb-lg-0">
+                          <a href="servPage6.html">
+                            <i class="me-3 fa-solid fa-globe"></i>
+                            الخدمات التسويقية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                      <ul class="list-unstyled">
+                        <li class="mb-3 pb-3">
+                          <a href="servPage7.html">
+                            <i class="me-3 fa-solid fa-clipboard-list"></i>
+                            خدمات التسويق والحملات الاعلانية
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">معرض الأعمال</a>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">المدونة</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact-us.html" class="nav-link">اتصل بنا</a>
+              </li>
+            </ul>
+          </div>
+          <div class="logo">
+            <img src="images/share-logo-white.png" alt="logo" />
+          </div>
+        </nav>
+        <!-- end navbar  -->
+      </div>
+    </header>
+    <!-- end header  -->
+
+    <!-- start hero section  -->
+    <div
+      class="hero-page-cto position-relative d-flex justify-content-center align-items-center"
+    >
+      <h1 class="display-3 text-white z-1 text-center">من نحن</h1>
+    </div>
+    <!-- end hero section  -->
+
+    <!-- start main  content -->
+    <main class="">
+      <!-- start  serv item section  -->
+      <section class="serv-item">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-between text-center text-lg-start"
+          >
+            <div class="col-lg-6">
+              <p class="serv-text fw-medium fs-3">
+                سلسلة شريكك المثالي في رحلتك الريادية التي تتطلع لها، حيث نقدم
+                لك خبراتنا الواسعة في مجال الاستشارات الاقتصادية والمالية
+                والقانونية ودراسات الجدوى وتخطيط الأعمال والتسويق وتأهيل الموارد
+                البشرية بتوجيهات من خبراء محترفين. في سلسلة نلبي احتياجات رواد
+                الأعمال والقائمين على المشاريع في مختلف المجالات الصناعية
+                والتجارية والتقنية.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="images/about/Business deal-bro 1.png"
+                alt="soft skills image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- start serv item  -->
+      <section class="serv-item light-background">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-between text-center"
+          >
+            <div class="col-lg-6">
+              <img
+                src="images/about/Group 2552.png"
+                alt="soft skills image"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-6">
+              <p class="serv-text text-start fw-medium fs-3">
+                انطلاقًا من مكتبنا في الرياض -المملكة العربية السعودية، نجسّر
+                الفجوة بين الرؤية والواقع عبر سلسلة من الخدمات التي تواكب فكر
+                رائد الأعمال في كل خطوة على طريق النجاح، ونضمن لك شراكة مثمرة
+                وموثوقة لتحويل أفكارك إلى مشاريع ناجحة تعكس رؤيتك وتُحقق تطلعاتك
+                نحو النجاح
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- start serv item  -->
+      <section class="serv-item about-back gradient-blue-background">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-lg-6 order-lg-2">
+              <img
+                src="images/about/soft-skills-rafiki.png"
+                alt="soft skills image"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <p class="serv-text fw-medium fs-3">
+                ومن هنا جاء اسمنا "سلسلة" حيث نوفر لعملائنا مجموعة متسلسلة من
+                الخدمات التي تبدأ من دراسة الفكرة وتطويرها إلى التنفيذ وبناء
+                المشروع على أرض الواقع، لنكون شريكك في كل خطوة من الرؤية إلى
+                الواقع. وهذا عبر فريق عمل من الخبراء والمتخصصين بخبرة سنوات
+                طويلة في السوق السعودي والعمل على مشاريع في تخصصات مختلفة جعلت
+                من سلسلة الخيار الأول لمئات المشاريع التي طورناها على مدى سنوات
+                عملنا.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- start serv item  -->
+      <section class="serv-item light-background about-vision-goals">
+        <div class="container">
+          <dl class="about-vision">
+            <dt class="section-title text-start fw-bold position-relative mb-4">
+              رؤيتنا:
+            </dt>
+            <dd class="fw-medium ms-5">
+              في سلسلة، نؤمن بأن قوة أي مجتمع تكمن في قدرته على تحفيز ودعم رواد
+              الأعمال وأصحاب المشاريع، وهم العماد الحقيقي لاقتصاد مزدهر ومستقبل
+              مشرق. لذلك نعمل بإلهام مستمر من رؤية المملكة العربية السعودية
+              2030، حيث نسعى لتحقيق التنمية المستدامة وتعزيز الابتكار والريادة
+              في مجال الأعمال.
+              <br />
+              نلتزم بتقديم خدمات متميزة تساعد في بناء جيل جديد من القادة
+              والرياديين الذين يجعلون من الرؤية واقعاً ملموساً، مساهمين في تحقيق
+              هدف المملكة ببناء اقتصاد متنوع ومزدهر يعتمد على الابتكار والمعرفة.
+            </dd>
+          </dl>
+          <dt class="section-title text-start fw-bold position-relative mb-4">
+            رسالتنا:
+          </dt>
+          <dd class="fw-medium ms-5">
+            نلهم ونمكّن رواد الأعمال وأصحاب المشاريع لتحقيق طموحاتهم وتحويل
+            أفكارهم إلى مشاريع قائمة عبر نهج متكامل يجمع بين الاستشارات المتخصصة
+            والحلول الحديثة القائمة على أفضل ما توصل له الخبراء في عالم ريادة
+            الاعمال وتشغيل المشاريع وإدارتها، مما يوفر للعميل توجيه مبتكر ومتقدم
+            في كل مرحلة من مراحل بناء ونمو المشروع لتتحول الرؤية إلى واقع ملموس.
+          </dd>
+        </div>
+      </section>
+
+      <section class="serv-item our-goals gradient-blue-background">
+        <div class="container">
+          <h2 class="title text-center fw-bold mb-5">أهدافنا</h2>
+          <div
+            class="d-flex gap-4 flex-wrap justify-content-center text-center"
+          >
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>تعزيز الريادة</h3>
+            </div>
+
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>تعزيز الشفافية والمصداقية</h3>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>تطوير وتعزيز قدرات الموارد البشرية</h3>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>تعزيز مفاهيم الابتكار والبحث والتطوير</h3>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>تعزيز القيمة المضافة</h3>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>بناء شراكات استراتيجية</h3>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>تعزيز التواصل</h3>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>توفير الموارد المالية للمشاريع</h3>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>توفير برامج التدريب والتطوير</h3>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h3>تقديم التوجيه والإرشاد</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- start our valuables and morals section  -->
+      <section class="serv-item our-valuables mx-auto">
+        <div class="container-fluid">
+          <h2 class="title text-center fw-bold mb-5">قيمنا</h2>
+          <div
+            class="d-flex gap-4 flex-wrap justify-content-center text-center"
+          >
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-database"></i>
+              <h5 class="fw-bold mt-3 mb-4">الابتكار</h5>
+              <p>
+                نعمل لتحفيز الابتكار والتفكير الإبداعي، حيث نقدم حلولاً مُبتكرة
+                تلبي احتياجات رواد الأعمال وأصحاب المشاريع.
+              </p>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <h5 class="fw-bold mt-3 mb-4">التعاون</h5>
+              <p>
+                نؤمن بقوة التعاون والشراكة، حيث نعمل معاً لتحقيق أهداف مشتركة
+                وبناء مستقبل أفضل للجميع.
+              </p>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-desktop"></i>
+              <h5 class="fw-bold mt-3 mb-4">الجودة</h5>
+              <p>
+                نحرص على تقديم خدمات ذات جودة عالية تتسم بالدقة والاحترافية، مع
+                التركيز على تحقيق التميز في كل ما نقدمه.
+              </p>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-database"></i>
+              <h5 class="fw-bold mt-3 mb-4">النزاهة</h5>
+              <p>
+                نحافظ على مبادئ النزاهة والشفافية في جميع تعاملاتنا، مع الالتزام
+                بأعلى معايير الأخلاقيات التجارية
+              </p>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-database"></i>
+              <h5 class="fw-bold mt-3 mb-4">التميز</h5>
+              <p>
+                نسعى دائماً لتحقيق التميز في كل جوانب عملنا، مع التركيز على
+                تقديم حلول مُخصصة تلبي احتياجات عملائنا بفعالية
+              </p>
+            </div>
+            <div
+              class="item d-flex flex-column justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-plane-arrival"></i>
+              <h5 class="fw-bold mt-3 mb-4">المسؤولية الاجتماعية</h5>
+              <p>
+                نسعى لدعم التنمية المستدامة في المملكة بما يتماشى مع رؤية
+                المملكة 2030.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- end main content -->
+    <!-- Modal -->
+    <div
+      class="modal fade reserve-consult-modal"
+      id="reservConsult"
+      tabindex="-1"
+      aria-labelledby="reservConsultLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header flex-column text-center">
+            <h2 class="modal-title fw-bold" id="reservConsultLabel">
+              احجز استشارة
+            </h2>
+            <h4 class="modal-subtitle fw-medium">
+              استشارة مجانية لمدة 30 دقيقة
+            </h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">
+                  الاسم الكامل
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="nameHelp"
+                  placeholder="الاسم"
+                  required
+                  autofocus
+                />
+                <div id="nameHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="address" class="form-label">
+                  العنوان
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="address"
+                  aria-describedby="address"
+                  placeholder="البلد، المدينة"
+                  required
+                />
+                <div id="address" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="job" class="form-label">
+                  مجال العمل
+                  <span> *</span>
+                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="job"
+                  aria-describedby="job"
+                  placeholder="مطاعم، بنوك، مقاهي،...."
+                  required
+                />
+                <div id="job" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">
+                  الجوال
+                  <span> *</span>
+                </label>
+                <div class="input-group mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="12345678952"
+                    required
+                  />
+                  <span class="input-group-text" id="basic-addon1">
+                    <img src="images/Saudi-Arabia-Flag.png" alt="flag" />
+                  </span>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">
+                  البريد الالكتروني
+                  <span> *</span>
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <labe for="subject" class="form-label">
+                  موضوع الاستشارة
+                  <span> *</span>
+                </labe>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="موضوع الاستشارة"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject-details" class="form-label">
+                  الشرح
+                  <span> *</span>
+                </label>
+
+                <textarea
+                  class="form-control"
+                  placeholder="نبذة عن الاستشارة المطلوبة"
+                  id="subject-details"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="main-btn">احجز الآن</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- start footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="site col-md-6 col-xl-3 mb-5 mb-xl-0">
+            <div class="site-logo mb-4">
+              <img src="images/share-logo-white.png" alt="logo" />
+            </div>
+            <p class="site-text pe-3">
+              شركة سلسلة هي أول شركة سعودية من نوعها في السوق السعودي
+            </p>
+            <div class="social-links d-flex">
+              <a class="ms-3" href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a class="ms-3" href="#">
+                <i class="fa-brands fa-square-x-twitter"></i>
+              </a>
+              <a class="ms-3" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a class="ms-3" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="about col-md-6 col-xl-2 mb-5 mb-xl-0">
+            <h3 class="about-title mb-4">عن سلسلة</h3>
+            <div class="about-links d-flex flex-column">
+              <a class="mb-3" href="#">الصفحة الرئيسية</a>
+              <a class="mb-3" href="#">من نحن</a>
+              <a class="mb-3" href="#">المدونة</a>
+              <a href="#">اتصل بنا</a>
+            </div>
+          </div>
+          <div class="foot-ser col-md-6 col-xl-5 mb-5 mb-xl-0">
+            <h3 class="mb-4">خدماتنا</h3>
+            <div class="row">
+              <div class="col d-flex flex-column">
+                <a class="mb-3" href="#"
+                  >الاستشارات والحلول الإدارية والمالية</a
+                >
+                <a class="mb-3" href="#">الاستشارات والحلول القانونية</a>
+                <a class="mb-3" href="#">استشارات الموارد البشرية</a>
+                <a href="#">الاستشارات والحلول التقنية</a>
+              </div>
+              <div class="col d-flex flex-column">
+                <a class="mb-3" href="#">الاستشارات والحلول التسويقية</a>
+                <a class="mb-3" href="#">الخدمات التسويقية</a>
+                <a class="mb-3" href="#">خدمات التصميم والحملات الإعلانية</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-2">
+            <h3 class="mb-4">تواصل معنا</h3>
+            <address class="d-flex flex-column">
+              <div class="mb-3 d-flex align-items-center">
+                <img class="me-2" src="images/address/Icon.png" alt="phone" />
+                <a href="tel:+966 645 6454 55"> +966 645 6454 55 </a>
+              </div>
+              <div class="mb-3 d-flex align-items-center">
+                <img class="me-2" src="images/address/Vector.png" alt="email" />
+                <a href="mailto:slsalah@gmail.com"> slsalah@gmail.com</a>
+              </div>
+              <div class="d-flex align-items-center">
+                <img
+                  class="me-2"
+                  src="images/address/Group.png"
+                  alt="address"
+                />
+                <a href="#"> الرياض - شارع الملك فهد 112 </a>
+              </div>
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+
+    <div class="bottom-footer text-center">
+      <p>جميع الحقوق محفوظة لشركة سلسلة 2023</p>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
