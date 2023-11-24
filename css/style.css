@@ -1322,8 +1322,8 @@ input::placeholder {
 .serv-page-six .serv-p-six-first .item {
   color: var(--main-color);
   background-color: #fff;
-  height: 320px;
-  width: 440px;
+  min-height: 320px;
+  width: 400px;
   padding: 24px 16px;
   border-radius: 10px;
   box-shadow: 10px 15px 10px 2px #00000040;
@@ -1334,6 +1334,7 @@ input::placeholder {
     #ffffff 96.98%
   );
 }
+
 .serv-page-six .serv-p-six-first .item svg {
   width: 64px;
   height: 64px;
